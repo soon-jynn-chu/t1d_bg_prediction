@@ -1,0 +1,9 @@
+d3rlpy==2.6.0
+gymnasium==0.29.1
+lightgbm==4.5.0
+matplotlib==3.9.2
+numpy==2.1.1
+pandas==2.2.3
+polars==1.8.2
+scikit_learn==1.5.2
+torch==2.4.0
