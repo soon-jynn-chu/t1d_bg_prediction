@@ -32,3 +32,9 @@
     # Require prediction outputs from base estimators
     python train_vote.py --output_path /path/to/output/folder --model_names svr rf lgb
     ```
+
+# Note
+The best results for DRL has to be manually obtained. To reproduce our results, use the following epochs setting:
+- DDPG: 8
+- TD3: 6
+- SAC: 5
