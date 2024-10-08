@@ -1,4 +1,4 @@
-# Blood Glucose Prediction in T1D using Supervised ML
+# Blood Glucose Prediction in T1D using ML
 
 ## Set Up
 - Python version: 3.10.14
@@ -34,7 +34,7 @@
     ```
 
 # Note
-The best results for DRL has to be manually obtained. To reproduce our results, use the following epochs setting:
+Early stopping was not implemented for DRL so best results have to be obtained manually. To reproduce our results, use the following epochs setting:
 - DDPG: 8
 - TD3: 6
 - SAC: 5
